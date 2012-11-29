@@ -7,7 +7,6 @@ Servo leftServo;  // create servo object for left servo
 Servo rightServo; //create servo object for right servo
 
 int pos = 0;    // variable to store the servo position 
-int spead =127;//define the spead of motor
  
 void setup()
 {
