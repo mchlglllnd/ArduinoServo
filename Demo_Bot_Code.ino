@@ -16,9 +16,9 @@ void setup()
 
 void loop()
 {
-  leftServo.write(0); 
+  leftServo.write(0); //As a side note 0 and 180 are full speed in either direction for continuous rot. servos. 90 result in no movement
   rightServo.write(180);
-  delay(3000);
+  delay(3000); //There is a three second run time for each of these commands
   leftServo.write(180); 
   rightServo.write(0);
   delay(3000);
